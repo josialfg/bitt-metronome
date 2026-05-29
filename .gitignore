@@ -1,0 +1,17 @@
+*.iml
+.gradle
+/local.properties
+/.idea
+.DS_Store
+# Match build/ at any depth (root AND app/build) for the v1 GitHub push.
+build/
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+# Signing material — never commit.
+*.keystore
+*.jks
+# Build artifacts.
+*.apk
+*.aab

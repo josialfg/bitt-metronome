@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Launch splash: charcoal background with the proposed icon centered. Used as
+     android:windowBackground on the launcher activity so the user sees something
+     branded between OS launch and the first Compose frame. -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@color/splash_bg" />
+    <item>
+        <bitmap
+            android:src="@drawable/ic_launch_icon"
+            android:gravity="center" />
+    </item>
+</layer-list>

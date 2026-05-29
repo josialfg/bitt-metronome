@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Launch-time theme. windowBackground is the splash (icon on charcoal); the
+         status/nav bar match so there's no flash of system color before the
+         Compose surface paints over. MainActivity flips to Theme.Metronome via
+         setTheme() in onCreate after the splash served its purpose. -->
+    <style name="Theme.Metronome.Splash" parent="android:Theme.DeviceDefault.NoActionBar">
+        <item name="android:windowBackground">@drawable/splash_background</item>
+        <item name="android:statusBarColor">@color/splash_bg</item>
+        <item name="android:navigationBarColor">@color/splash_bg</item>
+    </style>
+
+    <!-- Runtime theme. Compose overrides system bar colors at runtime per the
+         active palette; this theme just provides the activity chrome. -->
+    <style name="Theme.Metronome" parent="android:Theme.DeviceDefault.NoActionBar">
+        <item name="android:windowBackground">@color/splash_bg</item>
+        <item name="android:statusBarColor">@color/splash_bg</item>
+        <item name="android:navigationBarColor">@color/splash_bg</item>
+    </style>
+</resources>

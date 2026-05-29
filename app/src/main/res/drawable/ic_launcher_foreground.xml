@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Adaptive icon foreground: the proposed-icon PNG. Android crops the outer
+     ~25% of each adaptive-icon layer for various mask shapes, so inset by 22%
+     so the 2×2 grid sits comfortably inside the safe zone on round/squircle. -->
+<inset xmlns:android="http://schemas.android.com/apk/res/android"
+    android:drawable="@drawable/ic_launch_icon"
+    android:inset="22%" />
