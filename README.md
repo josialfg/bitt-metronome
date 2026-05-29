@@ -10,17 +10,17 @@ This started as a university assignment about building with **Claude** (Anthropi
 
 The two things I built it around:
 
-- **Change tempo mid-run** — switch between setlist on the fly.
-- **Store multiple setlists** — keep several tempo/meter presets ready .
+- **Change tempo mid-run**  switch between setlist on the fly.
+- **Store multiple setlists**  keep several tempo/meter presets ready .
 
 Plus:
 
-- Two preset "boxes" per setlist with a **manual swap at the end of the bar** — line a tempo change up to land on the downbeat.
+- Two preset "boxes" per setlist with a **manual swap at the end of the bar**  line a tempo change up to land on the downbeat.
 - A **visual bar/beat grid** that lights up in time.
 - Time signature (2–6 beats per bar), phrase length (1–8 bars), and eighth-note **subdivision**.
 - **Audio↔visual offset** calibration.
 - **Lock mode** to avoid accidental edits during a take.
-- **Background playback** — keeps clicking when the app is backgrounded.
+- **Background playback**  keeps clicking when the app is backgrounded.
 - Light / Dark / Beige themes; portrait, landscape, and tablet-centered layouts.
 
 ## Tech
@@ -37,4 +37,4 @@ Open the project in **Android Studio** with the Android **NDK** installed, then 
 
 ## Note
 
-Built with the help of **Claude** (Claude Code) as part of a university assignment exploring AI-assisted development — then shaped, revision by revision, into a tool I use for real.
+Built with the help of **Claude** (Claude Code) as part of a university assignment exploring AI-assisted development. then shaped, revision by revision, into a tool I use for real.
