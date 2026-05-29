@@ -1,7 +1,6 @@
 # Bitt Metronome
 
-A metronome for drummers
-An Android app built with Kotlin + Jetpack Compose and a low-latency C++ (Oboe) audio engine.
+A metronome for drummers. an Android app built with Kotlin + Jetpack Compose and a low-latency C++ (Oboe) audio engine.
 
 ## Why this exists
 
