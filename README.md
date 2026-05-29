@@ -1,17 +1,18 @@
 # Bitt Metronome
 
-A metronome for drummers — an Android app built with Kotlin + Jetpack Compose and a low-latency C++ (Oboe) audio engine.
+A metronome for drummers
+An Android app built with Kotlin + Jetpack Compose and a low-latency C++ (Oboe) audio engine.
 
 ## Why this exists
 
-This started as a university assignment about building with **Claude** (Anthropic's AI). Instead of a throwaway demo, I used the chance to build something I actually needed as a drummer: a metronome tailored to how I practice and play. Every feature here comes from a real use case I hit behind the kit.
+This started as a university assignment about building with **Claude** (Anthropic's AI). Instead of a throwaway demo, I used the chance to build something I actually needed as a drummer: a metronome tailored to how I practice and play. Every feature here comes from a real use case I need for making sure I can stay within tempo for multiple songs. 
 
 ## What it does
 
 The two things I built it around:
 
-- **Change tempo mid-run** — nudge the BPM (±1 / ±5) or slide on the number while the click keeps playing. No stop-and-restart.
-- **Store multiple setlists** — keep several tempo/meter presets ready and switch between them on the fly, so a whole rehearsal or set is a tap away.
+- **Change tempo mid-run** — switch between setlist on the fly.
+- **Store multiple setlists** — keep several tempo/meter presets ready .
 
 Plus:
 
